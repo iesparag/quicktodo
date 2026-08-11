@@ -1,6 +1,11 @@
 node_modules/
-.env
-dist/
-coverage/
-*.log
+.quicktododata/
+.quicktododata*
+.quicktododata/**
+.quicktododata*.json
+
+# For compatibility with the design, ignore the data directory
+.quicktododata/
+
+# Ignore macOS system files
 .DS_Store
