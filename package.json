@@ -1,0 +1,27 @@
+{
+  "name": "quicktodo",
+  "version": "0.1.0",
+  "description": "A lightweight CLI tool to quickly manage your personal TODOs stored locally.",
+  "type": "module",
+  "bin": {
+    "quicktodo": "bin/quicktodo.js"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "tap": "^16.3.6"
+  },
+  "keywords": [
+    "cli",
+    "todo",
+    "tasks",
+    "productivity",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
